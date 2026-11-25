@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ReadmeForge</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">📝 ReadmeForge</div>
+  <button id="langBtn" class="ghost">English</button>
+</header>
+<main>
+  <section class="hero">
+    <h1 data-i="title"></h1>
+    <p data-i="sub"></p>
+    <form id="form">
+      <input id="repo" dir="ltr" placeholder="github.com/owner/repo" autocomplete="off">
+      <button type="submit" data-i="go"></button>
+    </form>
+    <div class="row">
+      <span data-i="try"></span>
+      <a href="#" class="chip" data-ex="vitejs/vite">vitejs/vite</a>
+      <a href="#" class="chip" data-ex="expressjs/express">expressjs/express</a>
+      <a href="#" class="chip" data-ex="psf/requests">psf/requests</a>
+      <a href="#" id="manual" class="chip alt" data-i="manual"></a>
+    </div>
+    <div id="status" class="status"></div>
+  </section>
+
+  <section id="work" class="work hidden">
+    <aside class="panel">
+      <h3 data-i="tpl"></h3>
+      <div class="seg" id="tpl">
+        <button data-v="minimal" data-i="t_min"></button>
+        <button data-v="standard" class="on" data-i="t_std"></button>
+        <button data-v="detailed" data-i="t_det"></button>
+      </div>
+      <h3 data-i="outlang"></h3>
+      <div class="seg" id="outlang">
+        <button data-v="en" class="on">English</button>
+        <button data-v="ar">العربية</button>
+        <button data-v="both" data-i="both"></button>
+      </div>
+      <h3 data-i="details"></h3>
+      <label><span data-i="f_name"></span><input id="f_name" dir="ltr"></label>
+      <label><span data-i="f_desc"></span><textarea id="f_desc" rows="2"></textarea></label>
+      <label><span data-i="f_install"></span><textarea id="f_install" rows="3" dir="ltr"></textarea></label>
+      <label><span data-i="f_usage"></span><textarea id="f_usage" rows="3" dir="ltr"></textarea></label>
+      <label><span data-i="f_features"></span><textarea id="f_features" rows="4"></textarea></label>
+      <label><span data-i="f_license"></span><input id="f_license" dir="ltr"></label>
+      <h3 data-i="sections"></h3>
+      <div id="sections" class="checks"></div>
+    </aside>
+    <div class="out">
+      <div class="bar">
+        <div class="seg small" id="view">
+          <button data-v="preview" class="on" data-i="preview"></button>
+          <button data-v="raw" data-i="raw"></button>
+        </div>
+        <span class="sp"></span>
+        <button id="copy" data-i="copy"></button>
+        <button id="dl" class="ghost" data-i="dl"></button>
+      </div>
+      <article id="preview" class="md" dir="ltr"></article>
+      <textarea id="raw" class="hidden" dir="ltr" spellcheck="false"></textarea>
+    </div>
+  </section>
+</main>
+<footer data-i="foot"></footer>
+<script src="marked.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
