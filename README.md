@@ -6,7 +6,7 @@
 
 **Live demo / الديمو:** https://mostaaafaomran-ctrl.github.io/readmeforge/
 
-![Home](screenshot-home-ar.png)
+![Home](7-screenshot-home-ar.png)
 
 ## Features / المميزات
 
@@ -30,8 +30,8 @@
 
 ## Screenshots / الصور
 
-![Result in Arabic UI](screenshot-result-ar.png)
-![Result in English UI](screenshot-result-en.png)
+![Result in Arabic UI](8-screenshot-result-ar.png)
+![Result in English UI](9-screenshot-result-en.png)
 
 ## Run locally / التشغيل محلياً
 
